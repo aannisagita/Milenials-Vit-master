@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1078566604844",
+    "firebase_url": "https://minimalist-9d3b2.firebaseio.com",
+    "project_id": "minimalist-9d3b2",
+    "storage_bucket": "minimalist-9d3b2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1078566604844:android:cd51737231bbfb65",
+        "android_client_info": {
+          "package_name": "com.example.annisa.minimalist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1078566604844-rnfvl9d1c1nkjd1dnmagd8t9vb8700oq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8xYnZnKZyjdjaYZiU7s5upSOhe_Hoazs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1078566604844-rnfvl9d1c1nkjd1dnmagd8t9vb8700oq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

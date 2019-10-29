@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HealtyLife"
+    android:background="@drawable/gradient1">
+
+    <Button
+        android:id="@+id/workout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="-10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_above="@+id/tengah"
+        android:text="@string/letsmove"
+        android:background="@drawable/white_rounded"/>
+
+    <ImageView
+        android:id="@+id/tengah"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"/>
+
+    <Button
+        android:id="@+id/healtyfood"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/tengah"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="-10dp"
+        android:text="@string/healty_food"
+        android:background="@drawable/white_rounded"/>
+
+
+
+</RelativeLayout>

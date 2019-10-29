@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="array_tips">
+        <item>Lets Move! For 5 minute </item>
+        <item>Read book for 5 minute</item>
+        <item>Listen to Podcast</item>
+        <item>Dont forget to sleep </item>
+        <item>Dont forget to eat</item>
+        <item>Stop play social media!</item>
+        <item>Be productive !!</item>
+        <item>Always think positive </item>
+        <item>Smileeee </item>
+        <item>Just do it!</item>
+        <item>Eat Healty First</item>
+        <item>Call your Parents</item>
+        <item>Greeting to your friends</item>
+        <item>Meetup to your old friends</item>
+        <item>Say Thanks after everything </item>
+        <item>Say sorry, if you do wrong thing</item>
+    </string-array>
+
+    <string-array name="array_spinner_diary">
+        <item>Happy</item>
+        <item>Angry</item>
+        <item>Sad</item>
+        <item>Scared</item>
+        <item>Homesick</item>
+        <item>"Iritated"</item>
+        <item>Tired</item>
+        <item>Sastified</item>
+        <item>Bored</item>
+        <item>Suprised</item>
+        <item>Touched</item>
+
+    </string-array>
+</resources>

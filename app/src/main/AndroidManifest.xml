@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.annisa.minimalist">
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/peach"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Version"
+            android:label="Version App"
+            android:parentActivityName=".Settings"></activity>
+        <activity
+            android:name=".AboutUs"
+            android:label="About Us"
+            android:parentActivityName=".Settings"></activity>
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".Settings"
+            android:label="About"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".HealtyLife"
+            android:label="Healty Life"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".hellopage" />
+        <activity
+            android:name=".Splashscreen"
+            android:noHistory="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Login" />
+        <activity android:name=".Register" />
+        <activity
+            android:name=".MainActivity_Habit"
+            android:label="My Habit"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".MainActivity_Diary"
+            android:label="Self Reflection"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".BuatHabit"
+            android:label="Make Habit"
+            android:icon="@drawable/peach"
+            android:parentActivityName=".MainActivity_Habit" />
+        <activity
+            android:name=".LihatHabit"
+            android:label="Habbit"
+            android:parentActivityName=".MainActivity_Habit" />
+        <activity
+            android:name=".LihatDiary"
+            android:label="Diary"
+            android:parentActivityName=".MainActivity_Diary" />
+        <activity
+            android:name=".UpdateHabit"
+            android:label="Update Habit"
+            android:parentActivityName=".MainActivity_Habit" />
+        <activity
+            android:name=".BuatDiary"
+            android:label="Make Diary"
+            android:parentActivityName=".MainActivity_Diary" />
+
+        <receiver android:name=".AlarmReceiver" />
+
+        <activity android:name=".MapsActivity_Food" />
+        <activity android:name=".MapsActivity_Workout" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+    </application>
+
+</manifest>

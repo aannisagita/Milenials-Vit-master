@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/makehabbit"
+            android:title="Make Habbit"
+            android:icon="@drawable/ic_format_list_bulleted_black_24dp"/>
+        <item
+            android:id="@+id/healtylife"
+            android:title="Healty Life"
+            android:icon="@drawable/ic_profil"/>
+        <item
+            android:id="@+id/selfreflection"
+            android:title="Self Reflection"
+            android:icon="@drawable/diary"/>
+    </group>
+
+    <item android:title="More">
+        <menu>
+            <item
+                android:id="@+id/settings"
+                android:title="About"
+                android:icon="@drawable/ic_about"/>
+            <item
+                android:id="@+id/sign_out"
+                android:title="Signout"
+                android:icon="@drawable/exit"/>
+        </menu>
+    </item>
+
+</menu>
